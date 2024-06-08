@@ -2,26 +2,13 @@
 title: My interstellar Digital Shop
 per_page: 10
 product_categories:
-  - style:
+#Primer Estilo de la pagina
+  - title: Out Of This World Juegos
+    description: not active
+    thumbnail: /src/assets/nebulix_merch.jpeg
+    style:
       template: full
       card_template: flex
-      hero_template: plain
-      container: lg
-      hero_surface: dark
-      hero_image_opacity: ""
-    overwrite_style: false
-    title: Out Of This World Merch!
-    description: Something you need
-    intro: Something you need
-    body: "\n\n\n"
-    thumbnail: /src/assets/nebulix_water_cap-1.png
-    name: "Merch"
-  - title: Out Of This World Merch
-    description: not active
-    thumbnail: /src/assets/cosmic_coctails_3.jpeg
-    style:
-      template: split
-      card_template: grid
       hero_template: image
       container: md
       hero_surface: ""
@@ -30,13 +17,30 @@ product_categories:
       - icon_only: false
         label: Shop Now
         href: "#more"
-        color: light
-    intro:
-      That's why I love elementary school, Edna. The children believe anything
-      you tell them.
+        color: surface-base
     overwrite_style: true
     body: "\n\n\n"
-    name: Style 2
+    name: Juegos
+#Segundo Estilo de la pagina
+  - title: Out Of This World Juegos
+    description: not active
+    thumbnail: /src/assets/cosmic_coctails_3.jpeg
+    style:
+      template: full
+      card_template: flex
+      hero_template: image
+      container: md
+      hero_surface: ""
+      hero_image_opacity: ""
+    hero_buttons:
+      - icon_only: false
+        label: Shop Now
+        href: "#more"
+        color: surface-base
+    overwrite_style: true
+    body: "\n\n\n"
+    name: Marcos
+#Segundo Estilo de la pagina
   - style:
       template: full
       card_template: flex
@@ -44,9 +48,9 @@ product_categories:
       hero_image_opacity: "1"
       container: md
     overwrite_style: true
-    name: Style 3
-    title: Out Of This World Merch
-    description: merch
+    name: Inflables
+    title: Out Of This World Juegos
+    description: Juegos
     thumbnail: /src/assets/nebulix_merch.jpeg
     intro: ""
     hero_buttons:
@@ -54,24 +58,31 @@ product_categories:
         label: Shop Now
         href: "#more"
         color: surface-base
-  - title: "Feeling generous? "
+#Tercer Estilo de la pagina
+  - title: "🏠Carpas, Mesas y Sillas"
     description: This is if you like our work and want to contribute to make our
       work more fun.
-    thumbnail: /src/assets/cosmic_coffee_2.jpeg
+    thumbnail: /src/assets/carpa_muestra_catalogo.jpg
     intro: Sponsor your developer.
     body: "\n\n\n"
     style:
       template: full
       card_template: flex
-      hero_template: plain
+      hero_template: image
       container: md
       hero_surface: ""
       hero_image_opacity: ""
+    hero_buttons:
+      - icon_only: false
+        label: Shop Now
+        href: "#more"
+        color: surface-base
     overwrite_style: true
-    name: Donations
-  - title: Licenses for our themes
+    name: Carpas
+#Cuarto Estilo de la pagina
+  - title: 📷Marcos para fotos
     description: "Want to get rid of the attribution? buy a Nebulix license "
-    thumbnail: /src/assets/license.jpeg
+    thumbnail: /src/assets/marco_muestra_catalogo.jpg
     body: "\n\n\n"
     style:
       template: full
